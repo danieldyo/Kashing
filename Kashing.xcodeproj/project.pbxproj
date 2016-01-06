@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89DE557B23697ABC000C1AB8 /* Pods_Kashing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAAE8CC6326DD218FE5DF65 /* Pods_Kashing.framework */; };
+		F41AD3DA1C3C6F330068DC57 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3D91C3C6F330068DC57 /* DataService.swift */; };
+		F41AD3DC1C3C70960068DC57 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3DB1C3C70960068DC57 /* constants.swift */; };
+		F41AD3DE1C3D0ADA0068DC57 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */; };
+		F41AD3E11C3D0B8E0068DC57 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */; };
+		F41AD3E41C3D0D810068DC57 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E31C3D0D810068DC57 /* ShadowView.swift */; };
 		F440A2B31C391D5300ABC9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440A2B21C391D5300ABC9F3 /* AppDelegate.swift */; };
 		F440A2B51C391D5300ABC9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440A2B41C391D5300ABC9F3 /* ViewController.swift */; };
 		F440A2B81C391D5300ABC9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440A2B61C391D5300ABC9F3 /* Main.storyboard */; };
 		F440A2BA1C391D5300ABC9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440A2B91C391D5300ABC9F3 /* Assets.xcassets */; };
 		F440A2BD1C391D5300ABC9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440A2BB1C391D5300ABC9F3 /* LaunchScreen.storyboard */; };
+		F440A2C61C3BA30C00ABC9F3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440A2C51C3BA30C00ABC9F3 /* FBSDKCoreKit.framework */; };
+		F440A2C81C3BA37100ABC9F3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440A2C71C3BA37100ABC9F3 /* FBSDKLoginKit.framework */; };
+		F440A2CA1C3BA37700ABC9F3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F440A2C91C3BA37700ABC9F3 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37774368E27C2967A9A9CE25 /* Pods-Kashing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kashing/Pods-Kashing.release.xcconfig"; sourceTree = "<group>"; };
+		4AAAE8CC6326DD218FE5DF65 /* Pods_Kashing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kashing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D788D71663C6FEA306FBB7 /* Pods-Kashing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kashing/Pods-Kashing.debug.xcconfig"; sourceTree = "<group>"; };
+		F41AD3D91C3C6F330068DC57 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F41AD3DB1C3C70960068DC57 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F41AD3E31C3D0D810068DC57 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		F440A2AF1C391D5300ABC9F3 /* Kashing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440A2B21C391D5300ABC9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F440A2B41C391D5300ABC9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,9 @@
 		F440A2B91C391D5300ABC9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F440A2BC1C391D5300ABC9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F440A2BE1C391D5300ABC9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F440A2C51C3BA30C00ABC9F3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F440A2C71C3BA37100ABC9F3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F440A2C91C3BA37700ABC9F3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440A2CA1C3BA37700ABC9F3 /* Bolts.framework in Frameworks */,
+				F440A2C81C3BA37100ABC9F3 /* FBSDKLoginKit.framework in Frameworks */,
+				F440A2C61C3BA30C00ABC9F3 /* FBSDKCoreKit.framework in Frameworks */,
+				89DE557B23697ABC000C1AB8 /* Pods_Kashing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A913F570237D9320564D5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D788D71663C6FEA306FBB7 /* Pods-Kashing.debug.xcconfig */,
+				37774368E27C2967A9A9CE25 /* Pods-Kashing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBB551A0CE53810E74EB56E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AAAE8CC6326DD218FE5DF65 /* Pods_Kashing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41AD3D81C3C6F100068DC57 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F41AD3D91C3C6F330068DC57 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		F41AD3E21C3D0D630068DC57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F41AD3E31C3D0D810068DC57 /* ShadowView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		F440A2A61C391D5300ABC9F3 = {
 			isa = PBXGroup;
 			children = (
 				F440A2B11C391D5300ABC9F3 /* Kashing */,
 				F440A2B01C391D5300ABC9F3 /* Products */,
+				2A913F570237D9320564D5C8 /* Pods */,
+				EBB551A0CE53810E74EB56E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +113,30 @@
 		F440A2B11C391D5300ABC9F3 /* Kashing */ = {
 			isa = PBXGroup;
 			children = (
+				F41AD3E21C3D0D630068DC57 /* View */,
+				F41AD3D81C3C6F100068DC57 /* Services */,
+				F440A2C41C3BA2DD00ABC9F3 /* Frameworks */,
 				F440A2B21C391D5300ABC9F3 /* AppDelegate.swift */,
 				F440A2B41C391D5300ABC9F3 /* ViewController.swift */,
 				F440A2B61C391D5300ABC9F3 /* Main.storyboard */,
+				F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */,
+				F41AD3DB1C3C70960068DC57 /* constants.swift */,
+				F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */,
 				F440A2B91C391D5300ABC9F3 /* Assets.xcassets */,
 				F440A2BB1C391D5300ABC9F3 /* LaunchScreen.storyboard */,
 				F440A2BE1C391D5300ABC9F3 /* Info.plist */,
 			);
 			path = Kashing;
+			sourceTree = "<group>";
+		};
+		F440A2C41C3BA2DD00ABC9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F440A2C91C3BA37700ABC9F3 /* Bolts.framework */,
+				F440A2C71C3BA37100ABC9F3 /* FBSDKLoginKit.framework */,
+				F440A2C51C3BA30C00ABC9F3 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F440A2C11C391D5300ABC9F3 /* Build configuration list for PBXNativeTarget "Kashing" */;
 			buildPhases = (
+				2492F731E15CB78E7602B150 /* Check Pods Manifest.lock */,
 				F440A2AB1C391D5300ABC9F3 /* Sources */,
 				F440A2AC1C391D5300ABC9F3 /* Frameworks */,
 				F440A2AD1C391D5300ABC9F3 /* Resources */,
+				CB131929F8A2B6E8A441AAE5 /* Embed Pods Frameworks */,
+				1D8A21E8591D8F4882EA066D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +208,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8A21E8591D8F4882EA066D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kashing/Pods-Kashing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2492F731E15CB78E7602B150 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB131929F8A2B6E8A441AAE5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kashing/Pods-Kashing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F440A2AB1C391D5300ABC9F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41AD3DA1C3C6F330068DC57 /* DataService.swift in Sources */,
 				F440A2B51C391D5300ABC9F3 /* ViewController.swift in Sources */,
+				F41AD3DE1C3D0ADA0068DC57 /* FeedVC.swift in Sources */,
 				F440A2B31C391D5300ABC9F3 /* AppDelegate.swift in Sources */,
+				F41AD3DC1C3C70960068DC57 /* constants.swift in Sources */,
+				F41AD3E11C3D0B8E0068DC57 /* FeedCell.swift in Sources */,
+				F41AD3E41C3D0D810068DC57 /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +378,15 @@
 		};
 		F440A2C21C391D5300ABC9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D788D71663C6FEA306FBB7 /* Pods-Kashing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kashing",
+					/Users/Home/Desktop/FacebookSDK,
+				);
 				INFOPLIST_FILE = Kashing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lol.Kashing;
@@ -258,8 +396,15 @@
 		};
 		F440A2C31C391D5300ABC9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37774368E27C2967A9A9CE25 /* Pods-Kashing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kashing",
+					/Users/Home/Desktop/FacebookSDK,
+				);
 				INFOPLIST_FILE = Kashing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lol.Kashing;
@@ -286,6 +431,7 @@
 				F440A2C31C391D5300ABC9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
