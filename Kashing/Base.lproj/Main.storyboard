@@ -50,6 +50,69 @@
             </objects>
             <point key="canvasLocation" x="352" y="383"/>
         </scene>
+        <!--Post View-->
+        <scene sceneID="hZE-fS-koy">
+            <objects>
+                <viewController id="Mb2-01-6ZV" customClass="PostView" customModule="Kashing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ibV-oB-gqj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ag9-mJ-QN9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b8a-yL-e76">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i9d-uc-RMT">
+                                <rect key="frame" x="225" y="187" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-pa-fC7">
+                                <rect key="frame" x="225" y="276" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtY-qG-CgE">
+                                <rect key="frame" x="258" y="520" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="makePost:" destination="Mb2-01-6ZV" eventType="touchUpInside" id="Bk1-hG-fu6"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="392" translatesAutoresizingMaskIntoConstraints="NO" id="HKn-CT-4Um">
+                                <rect key="frame" x="180" y="351" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="LF4-GP-tqz"/>
+                                    <constraint firstAttribute="height" constant="128" id="jn8-gc-XKL"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Agd-1i-6ab" appends="YES" id="jEm-eA-wwN"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HKn-CT-4Um" firstAttribute="centerX" secondItem="b8a-yL-e76" secondAttribute="centerX" id="1Rx-hJ-hib"/>
+                            <constraint firstItem="i9d-uc-RMT" firstAttribute="centerX" secondItem="b8a-yL-e76" secondAttribute="centerX" id="3bF-pa-ArW"/>
+                            <constraint firstItem="qj0-pa-fC7" firstAttribute="centerX" secondItem="b8a-yL-e76" secondAttribute="centerX" id="Arw-Ye-gXa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descField" destination="i9d-uc-RMT" id="x5T-z8-oii"/>
+                        <outlet property="postImage" destination="HKn-CT-4Um" id="DmY-wT-PTt"/>
+                        <outlet property="priceField" destination="qj0-pa-fC7" id="f15-aF-QsC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gpo-oV-XV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Agd-1i-6ab">
+                    <connections>
+                        <action selector="selectImage:" destination="Mb2-01-6ZV" id="Kmb-sE-3Rg"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2522" y="406"/>
+        </scene>
         <!--FeedVC-->
         <scene sceneID="Bhp-1e-mDD">
             <objects>
@@ -80,7 +143,7 @@
                                                             <rect key="frame" x="0.0" y="14" width="569" height="280"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5PP-pw-wrT">
-                                                                    <rect key="frame" x="128" y="8" width="320" height="262"/>
+                                                                    <rect key="frame" x="124" y="8" width="320" height="262"/>
                                                                     <subviews>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YzL-pd-x99">
                                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
@@ -169,6 +232,9 @@
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
+                                                    <outlet property="desc" destination="bDN-Bt-Ito" id="4YW-AK-wUI"/>
+                                                    <outlet property="itemImg" destination="MFm-Sl-LYL" id="aIk-rP-w8G"/>
+                                                    <outlet property="likesLbl" destination="PFa-wY-1mC" id="sRL-ev-9zn"/>
                                                     <outlet property="profileImg" destination="jMT-JM-1IK" id="n0U-4a-OTs"/>
                                                 </connections>
                                             </tableViewCell>
@@ -192,7 +258,18 @@
                             <constraint firstAttribute="trailing" secondItem="EHX-Za-6br" secondAttribute="trailing" id="k3k-f1-saL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="X8Y-ev-C8Y"/>
+                    <navigationItem key="navigationItem" id="X8Y-ev-C8Y">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="gQC-oK-Nak">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g9z-kW-2Am">
+                                <rect key="frame" x="447" y="7" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Mb2-01-6ZV" kind="show" id="Nmh-p8-fnJ"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="QWu-oQ-c8m" id="ouh-1r-5lC"/>
                     </connections>

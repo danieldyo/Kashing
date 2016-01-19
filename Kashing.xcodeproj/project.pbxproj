@@ -13,6 +13,8 @@
 		F41AD3DE1C3D0ADA0068DC57 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */; };
 		F41AD3E11C3D0B8E0068DC57 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */; };
 		F41AD3E41C3D0D810068DC57 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E31C3D0D810068DC57 /* ShadowView.swift */; };
+		F41AD3E61C3D2D6F0068DC57 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E51C3D2D6F0068DC57 /* post.swift */; };
+		F41AD3E81C3D52A20068DC57 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AD3E71C3D52A20068DC57 /* PostView.swift */; };
 		F440A2B31C391D5300ABC9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440A2B21C391D5300ABC9F3 /* AppDelegate.swift */; };
 		F440A2B51C391D5300ABC9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440A2B41C391D5300ABC9F3 /* ViewController.swift */; };
 		F440A2B81C391D5300ABC9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440A2B61C391D5300ABC9F3 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F41AD3E31C3D0D810068DC57 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F41AD3E51C3D2D6F0068DC57 /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		F41AD3E71C3D52A20068DC57 /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F440A2AF1C391D5300ABC9F3 /* Kashing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F440A2B21C391D5300ABC9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F440A2B41C391D5300ABC9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,10 +125,12 @@
 				F440A2B61C391D5300ABC9F3 /* Main.storyboard */,
 				F41AD3DD1C3D0ADA0068DC57 /* FeedVC.swift */,
 				F41AD3DB1C3C70960068DC57 /* constants.swift */,
+				F41AD3E71C3D52A20068DC57 /* PostView.swift */,
 				F41AD3E01C3D0B8E0068DC57 /* FeedCell.swift */,
 				F440A2B91C391D5300ABC9F3 /* Assets.xcassets */,
 				F440A2BB1C391D5300ABC9F3 /* LaunchScreen.storyboard */,
 				F440A2BE1C391D5300ABC9F3 /* Info.plist */,
+				F41AD3E51C3D2D6F0068DC57 /* post.swift */,
 			);
 			path = Kashing;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 				F41AD3DA1C3C6F330068DC57 /* DataService.swift in Sources */,
 				F440A2B51C391D5300ABC9F3 /* ViewController.swift in Sources */,
 				F41AD3DE1C3D0ADA0068DC57 /* FeedVC.swift in Sources */,
+				F41AD3E61C3D2D6F0068DC57 /* post.swift in Sources */,
 				F440A2B31C391D5300ABC9F3 /* AppDelegate.swift in Sources */,
 				F41AD3DC1C3C70960068DC57 /* constants.swift in Sources */,
 				F41AD3E11C3D0B8E0068DC57 /* FeedCell.swift in Sources */,
+				F41AD3E81C3D52A20068DC57 /* PostView.swift in Sources */,
 				F41AD3E41C3D0D810068DC57 /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

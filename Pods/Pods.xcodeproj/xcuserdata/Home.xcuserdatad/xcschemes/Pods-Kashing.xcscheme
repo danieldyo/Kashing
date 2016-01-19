@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '46CD827517F732EE71EDC7EC'
+               BlueprintIdentifier = '993B7AA34B37AFE2814D6ECF'
                BlueprintName = 'Pods-Kashing'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Kashing.framework'>
